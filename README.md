@@ -1,0 +1,5 @@
+# multi_source_single_cap
+
+用DNN网络计算，事实上CNN和DNN都可以用，这里用的DNN
+主要问题在于reward定义，reward影响agent训练方向，尝试了几种reward均会在部分例子中出现问题
+power_source文件用于多样本训练，而这里只选了其中一种分布来计算
